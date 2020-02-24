@@ -1,0 +1,3 @@
+SELECT O.NAME as Dono, C.NAME as Gato
+FROM CATS C 
+INNER JOIN OWNER O ON O.Id = C.OwnerID

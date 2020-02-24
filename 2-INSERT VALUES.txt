@@ -1,0 +1,18 @@
+BEGIN TRAN
+INSERT INTO Signa..Owner VALUES('Adam Smith')
+INSERT INTO Signa..Owner VALUES('Scott Johnson')
+INSERT INTO Signa..Owner VALUES('Kimberly Parker')
+COMMIT
+
+BEGIN TRAN
+INSERT INTO Signa..Cats VALUES('Lily',5,1)
+INSERT INTO Signa..Cats VALUES('Chloe',2,3)
+INSERT INTO Signa..Cats VALUES('Charlie',3,2)
+COMMIT
+
+BEGIN TRAN
+INSERT INTO Signa..Dogs VALUES('Maggie','1',2)
+INSERT INTO Signa..Dogs VALUES('Duke','7',1)
+INSERT INTO Signa..Dogs VALUES('Buddy','4',2)
+COMMIT
+

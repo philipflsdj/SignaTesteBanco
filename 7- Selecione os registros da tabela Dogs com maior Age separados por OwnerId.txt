@@ -1,0 +1,4 @@
+SELECT OwnerID, count(age)
+FROM Dogs
+GROUP BY OwnerID
+ORDER BY COUNT(age) DESC;
